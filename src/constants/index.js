@@ -3,49 +3,51 @@ export const myProjects = [
     id: 1,
     title: "E-commerce Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+       "Snatch is a minimalist e-commerce MVP designed to explore the essential building blocks of an online store — from product browsing to cart management — all wrapped in a responsive, user-first experience. Built with a future-ready mindset, it's a foundation for continued growth and feature expansion.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
+      "Snatch started as a personal project to understand how e-commerce platforms work from the ground up. Using Node.js, Express, and EJS, I built a functional MVP with product listings, cart management, and user authentication.",
+      "I focused on clean structure, responsive design, and a seamless user experience. Though it's still in progress, features like search and payment integration are planned as I continue expanding the platform.",
+],
     href: "",
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "Express",
+        path: "/assets/logos/express.svg",
       },
       {
         id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
+       {
+        id: 5,
+        name: "EJS",
+        path: "/assets/logos/ejs.svg",
+      },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "PromptPilot",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "MCP is an AI-powered command-line agent designed to execute simple tasks like opening websites or generating LinkedIn posts using Google Gemini AI. Built to explore tool calling, agent flow, and real-time automation using the Model Context Protocol.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "This project started as an experiment to understand how AI agents can trigger real-world actions. Using a Node.js server and the MCP SDK, I created tools for opening websites and generating contextual content through Gemini AI.",
+      "Though still a work in progress, it laid the foundation for building more advanced, multi-functional agents capable of acting on user prompts in natural, useful ways.",
+
     ],
     href: "",
     logo: "",
@@ -53,73 +55,57 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "Express",
+        path: "/assets/logos/express.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "Google Gemini",
+        path: "/assets/logos/gemini.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Js",
+        path: "/assets/logos/javascript.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Blue Boy Adventure- 2D Java Game",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A handcrafted 2D adventure game built in pure Java using Swing, featuring character movement, combat, inventory, and rich interactions with monsters and NPCs across multiple maps. Designed to explore game logic, pathfinding, and real-time rendering from the ground up.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "This game began as a way to challenge myself with raw game development in Java. I implemented a full game loop, tile-based world, combat mechanics, A* pathfinding for NPCs, and systems for dialogue, inventory, and projectiles.",
+      "Though still in progress, it already includes multiple game states, a day/night cycle, and a full UI — all built with no game engine, just Java Swing and code from scratch.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/2dGame.webp",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Java",
+        path: "/assets/logos/Java.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "AI-Powered Code Collaboration Platform",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+       "A real-time collaborative coding environment enhanced with AI support, built using the MERN stack and Google Gemini AI.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+     "Built a smart IDE that lets teams code together in real-time, with AI suggesting code improvements as you go.",
+    "Added Socket.IO for live collaboration, including chat, file syncing, and multi-user editing.",
+    "Integrated JWT-based authentication and secure project-level access control.",
+    "Designed a clean, responsive UI using React and Tailwind CSS for a smooth experience across all devices.",
+  
     ],
     href: "",
     logo: "",
@@ -127,24 +113,29 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
+      {
+      id: 5,
+      name: "Socket.IO",
+      path: "/assets/logos/socket.png",
+    },
     ],
   },
   {
@@ -225,18 +216,18 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "Github",
+    href: "https://github.com/Elliasanisworth",
+    icon: "/assets/socials/github.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "www.linkedin.com/in/shashwat-srivastava-/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/its_shashwat_29/",
     icon: "/assets/socials/instagram.svg",
   },
 ];

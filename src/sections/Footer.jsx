@@ -11,11 +11,11 @@ const Footer = () => {
       <div className="flex gap-3">
         {mySocials.map((social, index) => (
           <a href={social.href} key={index}>
-            <img src={social.icon} className="w-5 h-5" alt={social.name} />
+            <img src={social.icon} className="w-6 h-6" alt={social.name} />
           </a>
         ))}
       </div>
-      <p>© 2025 Ali. All rights reserved.</p>
+      <p>© 2025 Shashwat. All rights reserved.</p>
     </section>
   );
 };
