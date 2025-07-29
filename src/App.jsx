@@ -8,19 +8,19 @@ import Testimonial from './sections/Testimonial'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 
-const app = () => {
+const App = () => {
   return (
-  <div className='container mx-auto max-w-7xl '>
-    <Navbar/>
-    <Hero/>
-    <About/>
-    <Projects/>
-    <Experiences/>
-    <Testimonial/>
-    <Contact/>
-    <Footer />
-  </div>
+    <div className='container mx-auto max-w-7xl '>
+      <Navbar/>
+      <Hero />
+      <About />
+      <Projects />
+      <Experiences />
+      <Testimonial />
+      <Contact />
+      <Footer />
+    </div>
   )
 }
 
-export default app
+export default App
