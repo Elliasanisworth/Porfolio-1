@@ -32,9 +32,9 @@ const ProjectDetails = ({
                         />
                     ))}
                 </div>
-                <a className='inline-flex items-center gap-1 font-medium hover-animation cursor-pointer' >veiw Project
+                {/* <a className='inline-flex items-center gap-1 font-medium hover-animation cursor-pointer' >veiw Project
                      <img src="assets/arrow-up.svg" className='size-4' alt="" href={href}/>
-                </a>
+                </a> */}
             </div>
         </div>
         </motion.div>    
