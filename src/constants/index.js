@@ -8,7 +8,7 @@ export const myProjects = [
       "Snatch started as a personal project to understand how e-commerce platforms work from the ground up. Using Node.js, Express, and EJS, I built a functional MVP with product listings, cart management, and user authentication.",
       "I focused on clean structure, responsive design, and a seamless user experience. Though it's still in progress, features like search and payment integration are planned as I continue expanding the platform.",
 ],
-    href: "",
+    href: "https://github.com/Elliasanisworth/Snatch",
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
@@ -49,7 +49,7 @@ export const myProjects = [
       "Though still a work in progress, it laid the foundation for building more advanced, multi-functional agents capable of acting on user prompts in natural, useful ways.",
 
     ],
-    href: "",
+    href: "https://github.com/Elliasanisworth/MCP",
     logo: "",
     image: "/assets/projects/auth-system.jpg",
     tags: [
@@ -107,7 +107,7 @@ export const myProjects = [
     "Designed a clean, responsive UI using React and Tailwind CSS for a smooth experience across all devices.",
   
     ],
-    href: "",
+    href: "https://github.com/Elliasanisworth/AI-Agent",
     logo: "",
     image: "/assets/projects/game-engine.jpg",
     tags: [
@@ -305,7 +305,7 @@ export const reviews = [
     img: "https://robohash.org/charlie",
   },
   {
-    name: "Dave",
+    name: "Shaurab nigam",
     username: "@dave",
     body: "Simply breathtaking. The best decision I've made in a while.",
     img: "https://robohash.org/dave",
