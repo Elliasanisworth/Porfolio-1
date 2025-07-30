@@ -5,7 +5,7 @@ A modern, interactive portfolio website built with React and Vite, showcasing pr
 
 ## 🚀 Live Demo
 
-This project is developed on [Replit](https://replit.com/) - a powerful online IDE for collaborative development.
+This project is developed on [Click Here](https://porfolio-liard-ten.vercel.app/) 
 
 ## 📋 Project Overview
 
@@ -192,6 +192,7 @@ Special thanks to:
 - **[SVG Repo](https://www.svgrepo.com/)** for the extensive icon library
 - **[Vecteezy](https://www.vecteezy.com/)** for beautiful vector graphics
 - **[Magic UI](https://magicui.design/)** for elegant React components
+- **[vercel](https://vercel.com)** for helping deploye my porfolio
 - The open-source community for all the incredible tools and libraries
 
 *If you've contributed to this project in any way and I've missed acknowledging you, please reach out so I can give you proper credit!*
